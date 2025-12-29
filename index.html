@@ -1,12 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=devce-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Admin Dashboard</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div id="container"></div>
+        <div id="container">
+            <div class="header">
+                <div class="top">
+                    <div class="search">
+                        <img
+                            src="assets/images/magnify.svg"
+                            alt="search"
+                            class="icon"
+                        />
+                        <input type="text" />
+                    </div>
+                    <div class="info">
+                        <img
+                            src="assets/images/bell-ring.svg"
+                            alt="notification"
+                            class="icon"
+                        />
+                        <img
+                            src="assets/images/profile.jpg"
+                            alt="profile"
+                            class="profile"
+                        />
+                        <span class="username">Lawson_101</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="intro">
+                        <img
+                            src="assets/images/profile.jpg"
+                            alt="profile"
+                            class="profile"
+                        />
+                        <div>
+                            <small>Hi there,</small>
+                            <div class="username">Lawson_101 (@lawson)</div>
+                        </div>
+                    </div>
+                    <div class="control-btns">
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="dashboard">
+                    <img
+                        src="assets/images/view-dashboard.svg"
+                        alt="Dashboard"
+                    />
+                    <span>Dashboard</span>
+                </div>
+                <div class="links">
+                    <div class="nav">
+                        <div>
+                            <img
+                                src="assets/images/home-account.svg"
+                                alt="home"
+                                class="icon"
+                            />
+                            <span>Home</span>
+                        </div>
+                        <div>
+                            <img
+                                src="assets/images/human-male-board-poll.svg"
+                                alt="profile"
+                                class="icon"
+                            />
+                            <span>Profile</span>
+                        </div>
+                        <div>
+                            <img
+                                src="assets/images/message.svg"
+                                alt="messages"
+                                class="icon"
+                            />
+                            <span>Messages</span>
+                        </div>
+                        <div>
+                            <img
+                                src="assets/images/history.svg"
+                                alt="history"
+                                class="icon"
+                            />
+                            <span>History</span>
+                        </div>
+                        <div>
+                            <img
+                                src="assets/images/note-multiple.svg"
+                                alt="tasks"
+                                class="icon"
+                            />
+                            <span>Tasks</span>
+                        </div>
+                        <div>
+                            <img
+                                src="assets/images/account-group.svg"
+                                alt="communities"
+                                class="icon"
+                            />
+                            <span>Communities</span>
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <div>
+                            <img
+                                src="assets/images/cog.svg"
+                                alt="settings"
+                                class="icon"
+                            />
+                            <span>Settings</span>
+                        </div>
+                        <div>
+                            <img
+                                src="assets/images/comment-question.svg"
+                                alt="support"
+                                class="icon"
+                            />
+                            <span>Support</span>
+                        </div>
+                        <div>
+                            <img
+                                src="assets/images/lock-check.svg"
+                                alt="privacy"
+                                class="icon"
+                            />
+                            <span>Privacy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="projects">
+                    <h4>Your Projects</h4>
+                    <div class="grid">
+                        <div class="box">
+                            <div>
+                                <div class="heading">Super Cool Project</div>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Dignissimos molestias
+                                    accusamus a illo alias eveniet, autem
+                                    impedit cumque facere rerum nobis nemo.
+                                    Temporibus tempore voluptatum quod? Iure non
+                                    officia vel?
+                                </small>
+                            </div>
+                            <div class="actions">
+                                <img
+                                    src="assets/images/star-plus.svg"
+                                    alt="favourites"
+                                    class="icon"
+                                />
+                                <img
+                                    src="assets/images/eye-plus.svg"
+                                    alt="hide"
+                                    class="icon"
+                                />
+                                <img
+                                    src="assets/images/source-fork.svg"
+                                    alt="source"
+                                    class="icon"
+                                />
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div>
+                                <div class="heading">Super Cool Project</div>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Dignissimos molestias
+                                    accusamus a illo alias eveniet, autem
+                                    impedit cumque facere rerum nobis nemo.
+                                    Temporibus tempore voluptatum quod? Iure non
+                                    officia vel?
+                                </small>
+                            </div>
+                            <div class="actions">
+                                <img
+                                    src="assets/images/star-plus.svg"
+                                    alt="favourites"
+                                    class="icon"
+                                />
+                                <img
+                                    src="assets/images/eye-plus.svg"
+                                    alt="hide"
+                                    class="icon"
+                                />
+                                <img
+                                    src="assets/images/source-fork.svg"
+                                    alt="source"
+                                    class="icon"
+                                />
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div>
+                                <div class="heading">Super Cool Project</div>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Dignissimos molestias
+                                    accusamus a illo alias eveniet, autem
+                                    impedit cumque facere rerum nobis nemo.
+                                    Temporibus tempore voluptatum quod? Iure non
+                                    officia vel?
+                                </small>
+                            </div>
+                            <div class="actions">
+                                <img
+                                    src="assets/images/star-plus.svg"
+                                    alt="favourites"
+                                    class="icon"
+                                />
+                                <img
+                                    src="assets/images/eye-plus.svg"
+                                    alt="hide"
+                                    class="icon"
+                                />
+                                <img
+                                    src="assets/images/source-fork.svg"
+                                    alt="source"
+                                    class="icon"
+                                />
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div>
+                                <div class="heading">Less Cool Project</div>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Dignissimos molestias
+                                    accusamus a illo alias eveniet, autem
+                                    impedit cumque facere rerum nobis nemo.
+                                    Temporibus tempore voluptatum quod? Iure non
+                                    officia vel?
+                                </small>
+                            </div>
+                            <div class="actions">
+                                <img
+                                    src="assets/images/star-plus.svg"
+                                    alt="favourites"
+                                    class="icon"
+                                />
+                                <img
+                                    src="assets/images/eye-plus.svg"
+                                    alt="hide"
+                                    class="icon"
+                                />
+                                <img
+                                    src="assets/images/source-fork.svg"
+                                    alt="source"
+                                    class="icon"
+                                />
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div>
+                                <div class="heading">Impossible App</div>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Dignissimos molestias
+                                    accusamus a illo alias eveniet, autem
+                                    impedit cumque facere rerum nobis nemo.
+                                    Temporibus tempore voluptatum quod? Iure non
+                                    officia vel?
+                                </small>
+                            </div>
+                            <div class="actions">
+                                <img
+                                    src="assets/images/star-plus.svg"
+                                    alt="favourites"
+                                    class="icon"
+                                />
+                                <img
+                                    src="assets/images/eye-plus.svg"
+                                    alt="hide"
+                                    class="icon"
+                                />
+                                <img
+                                    src="assets/images/source-fork.svg"
+                                    alt="source"
+                                    class="icon"
+                                />
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div>
+                                <div class="heading">Easy Peasy App</div>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Dignissimos molestias
+                                    accusamus a illo alias eveniet, autem
+                                    impedit cumque facere rerum nobis nemo.
+                                    Temporibus tempore voluptatum quod? Iure non
+                                    officia vel?
+                                </small>
+                            </div>
+                            <div class="actions">
+                                <img
+                                    src="assets/images/star-plus.svg"
+                                    alt="favourites"
+                                    class="icon"
+                                />
+                                <img
+                                    src="assets/images/eye-plus.svg"
+                                    alt="hide"
+                                    class="icon"
+                                />
+                                <img
+                                    src="assets/images/source-fork.svg"
+                                    alt="source"
+                                    class="icon"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="announcements">
+                    <h4>Announcements</h4>
+
+                    <div class="info">
+                        <div>
+                            <div class="title">Site Maintenance</div>
+                            <small
+                                >Temporibus, quis vitae. Eius explicabo delectus
+                                hic fuga architecto veritatis eveniet quisquam
+                                totam sunt incidunt.</small
+                            >
+                        </div>
+                        <div>
+                            <div class="title">Community Share Day</div>
+                            <small
+                                >Temporibus, quis vitae. Eius explicabo delectus
+                                hic fuga architecto veritatis eveniet quisquam
+                                totam sunt incidunt.</small
+                            >
+                        </div>
+                        <div>
+                            <div class="title">Updated Privacy Policy</div>
+                            <small
+                                >Temporibus, quis vitae. Eius explicabo delectus
+                                hic fuga architecto veritatis eveniet quisquam
+                                totam sunt incidunt.</small
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <h4>Trending</h4>
+
+                    <div class="channels">
+                        <div>
+                            <img
+                                src="assets/images/profile.jpg"
+                                alt="profile"
+                                class="profile"
+                            />
+                            <span>@tedan</span>
+                        </div>
+                        <div>
+                            <img
+                                src="assets/images/profile.jpg"
+                                alt="profile"
+                                class="profile"
+                            />
+                            <span>@fisher</span>
+                        </div>
+                        <div>
+                            <img
+                                src="assets/images/profile.jpg"
+                                alt="profile"
+                                class="profile"
+                            />
+                            @yannick
+                        </div>
+                        <div>
+                            <img
+                                src="assets/images/profile.jpg"
+                                alt="profile"
+                                class="profile"
+                            />
+                            @henry
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
