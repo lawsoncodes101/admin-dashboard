@@ -234,7 +234,7 @@ body::-webkit-scrollbar-thumb {
 
     .announcements,
     .trending {
-        padding: 0 1rem 1rem 1rem;
+        padding: 0 1rem;
     }
 
     .info,
