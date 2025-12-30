@@ -80,8 +80,9 @@ body::-webkit-scrollbar-thumb {
 
     .top input[type="text"] {
         outline: none;
-        padding: 0.2rem 0.3rem;
+        padding: 0.2rem 0.5rem;
         border-radius: 1rem;
+        border: 2px solid black;
         width: 100%;
     }
 
@@ -143,7 +144,7 @@ body::-webkit-scrollbar-thumb {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 60%;
+        height: min(60%, 500px);
         font-weight: bold;
     }
 
@@ -233,7 +234,7 @@ body::-webkit-scrollbar-thumb {
 
     .announcements,
     .trending {
-        padding: 0 0.5rem 1rem 1rem;
+        padding: 0 1rem 1rem 1rem;
     }
 
     .info,
